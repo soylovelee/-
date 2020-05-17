@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스파르타코딩클럽</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+    <style>
+        .wrap {
+            width: 900px;
+            margin: auto;
+        }
+        .mytitle{
+        font-family: 'Nanum Pen Script', cursive;
+            color: black;
+        }
+        .button{
+            font-family: 'Nanum Pen Script', cursive;
+            text-align: center;
+            border-radius:10px;
+            color:white
+            background-color:blue
+        }
+
+    </style>
+        <script>
+            function hey() {
+                alert('주문이 완료되었습니다!');
+            }
+        </script>
+</head>
+
+<body>
+    <div class="wrap">
+    <div class="image">
+        <img src="https://danoshop.net/mall/upload/2018/09/10/dc_mo.jpg">
+    </div>
+    <div class="mytitle">
+    <h1>단백질 초콜릿</h1>
+    <h4>가격: 4500원 / 1개</h4>
+    <h5>이 초콜릿은 무설탕 고단백 초콜릿으로 다이어트 중에도 부담없이 먹을 수 있어 식단 조절에 좋습니다</h5>
+        <p>
+            주문자 이름: <input type="text" />
+        </p>
+        <p>
+            수량: <input type="number" />
+        </p>
+        <p>
+            주소: <input type="text" />
+        </p>
+        <p>
+            전화번호: <input type="text" />
+        </p>
+        <div class="button">
+        <button onclick="hey()" type="button" class="btn btn-primary">주문하기</button>
+
+</div>
+    </div>
+</div>
+</div>
+</body>
+
+</html>
